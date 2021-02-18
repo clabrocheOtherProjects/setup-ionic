@@ -18,8 +18,8 @@ export async function installCordova(version?: string): Promise<void> {
   // await installNpmPkg('cordova-res');
 
   // Fix access permissions
-  await exec2(`sudo chown -R $USER:$GROUP ~/.npm`)
-  await exec2(`sudo chown -R $USER:$GROUP ~/.config`)
+  // await exec2(`sudo chown -R $USER:$GROUP ~/.npm`)
+  // await exec2(`sudo chown -R $USER:$GROUP ~/.config`)
 }
 
 /**

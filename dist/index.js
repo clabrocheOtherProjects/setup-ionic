@@ -6757,8 +6757,8 @@ function installCordova(version) {
         // https://github.com/ionic-team/cordova-res
         // await installNpmPkg('cordova-res');
         // Fix access permissions
-        yield exec2(`sudo chown -R $USER:$GROUP ~/.npm`);
-        yield exec2(`sudo chown -R $USER:$GROUP ~/.config`);
+        // await exec2(`sudo chown -R $USER:$GROUP ~/.npm`)
+        // await exec2(`sudo chown -R $USER:$GROUP ~/.config`)
     });
 }
 exports.installCordova = installCordova;
